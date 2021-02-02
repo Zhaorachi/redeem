@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Niramit&display=swap");
+
+
+.mainBox{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 0.5px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border-radius: 1rem;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.marketPrice {
+  color: #34a853;
+}
+.precio-final {
+  font-family: "Niramit", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.small-box{
+text-align: center;
+font-size: 14px;
+}
+.big-box{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.mainBox h1{
+  text-align: center;
+}
