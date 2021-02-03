@@ -4,7 +4,7 @@ import './Login.css'
 import apiClient from "../Services/ApiClient";
 
 export default class Login extends Component{
-  
+
   state = {
     emailPayer: '',
   }
@@ -18,7 +18,7 @@ export default class Login extends Component{
     const {
       emailPayer
     } = this.state;
-    console.log('it works', emailPayer)
+    console.log('it works', emailPayer);
     apiClient
     .login({
       emailPayer
@@ -27,9 +27,9 @@ export default class Login extends Component{
       console.log(err)
     });
   };
-  
+
   render(){
-    
+
     return(
       <div className='loginBox'>
         <h1>Login</h1>
