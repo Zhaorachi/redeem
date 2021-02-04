@@ -6,7 +6,7 @@ import apiClient from "../Services/ApiClient";
 export default class Login extends Component{
 
   state = {
-    emailPayer: '',
+    email: '',
   }
   handleChange = (e) => {
     this.setState({
@@ -16,12 +16,12 @@ export default class Login extends Component{
   handleSubmit = (e) => {
     e.preventDefault();
     const {
-      emailPayer
+      email
     } = this.state;
-    console.log('it works', emailPayer);
+    console.log('it works', email);
     apiClient
     .login({
-      emailPayer
+        email
     })
     .catch((err) =>{
       console.log(err)
