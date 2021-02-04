@@ -23,6 +23,7 @@ export default class Login extends Component {
         console.log('it works', email);
         apiClient.login({email: email})
             .then(res => {
+                console.log(res);
                 const status = res.data.status;
                 if(status === 200) this.setState({cname: 'success', message: res.data.message});
                 else if(status === 500) this.setState({cname: 'error', message: res.data.message});
