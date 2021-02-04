@@ -21,7 +21,7 @@ export default class Login extends Component{
     console.log('it works', email);
     apiClient
     .login({
-        email
+        email: email
     })
     .catch((err) =>{
       console.log(err)

@@ -8,7 +8,7 @@ class ApiClient {
     });
   }
   login(body) {
-    return this.apiClient.post("/", body);
+    return this.apiClient.post("/login", body);
   }
 }
 
