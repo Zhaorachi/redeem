@@ -2,16 +2,19 @@
     color: green;
     border: 2px solid green;
     padding: 10px;
+    background: white;
 }
 
 .warning {
     color: #aaaa25;
     border: 2px solid #aaaa25;
     padding: 10px;
+    background: white;
 }
 
 .error {
     color: darkred;
     border: 2px solid darkred;
     padding: 10px;
+    background: white;
 }
